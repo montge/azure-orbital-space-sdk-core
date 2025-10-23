@@ -27,6 +27,8 @@
     <ProjectReference Include="/workspaces/spacesdk-core/src/spacesdk-core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
     <Protobuf Include="/workspaces/spacesdk-core/test/protos/Testing.proto" GrpcServices="Both" Access="Public" ProtoCompile="True" CompileOutputs="True" ProtoRoot="/workspaces/spacesdk-core" OutputDir="obj/Debug/net6.0/" AdditionalImportDirs="/var/spacedev/protos/"></Protobuf>
 	</ItemGroup>
 </Project>
